@@ -3,7 +3,6 @@ import { AssetLogRepository } from './asset-log.repository';
 import { CreateLogDto } from './dtos/create-asset-log.dto';
 import { Log } from './entities/log.entity';
 import { AccessedLogRepository } from '../accessed-log/accessed-log.repository';
-import { AccessedLog } from '../accessed-log/entities/accessed-log.entity';
 import { AssetType } from '../common/enums/asset-type';
 import { Period, transformPeriodToDate } from '../common/enums/period';
 import { TrendingAssetDto } from './dtos/trending-asset.dto';

@@ -9,12 +9,12 @@ import { AssetType } from '../../common/enums/asset-type';
 import { Log } from '../entities/log.entity';
 describe('Asset-Log testing', () => {
   let app: INestApplication;
-  let baseUrl: string = '/asset-log';
-  let trendingUrl: string = `${baseUrl}/trending`;
-  let recentUrl: string = `${baseUrl}/recent`;
+  const baseUrl: string = '/asset-log';
+  const trendingUrl: string = `${baseUrl}/trending`;
+  const recentUrl: string = `${baseUrl}/recent`;
   let assetLogService: AssetLogService;
-  let testUserId: number = 1234564897;
-  let testAssetId: number = 55555555;
+  const testUserId: number = 1234564897;
+  const testAssetId: number = 55555555;
 
   beforeAll(async () => {
     try {
